@@ -1,0 +1,27 @@
+package my.types {
+  datatype String
+  datatype Boolean
+}
+
+package my.entities {
+  import my.types.*
+
+  entity Session {
+    title : String
+    isTutorial : Boolean
+  }
+  
+  entity Conference {
+    name : String
+    attendees : Person*
+    speakers : Speaker*
+  }
+
+  entity Person {
+    name : String
+  }
+
+  entity Speaker extends Person {
+    sessions : Session*
+  }
+}

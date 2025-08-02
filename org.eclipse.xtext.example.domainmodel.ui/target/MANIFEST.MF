@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.xtext.example.domainmodel.ui
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.xtext.example.domainmodel.ui
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.202508020740
+Bundle-SymbolicName: org.eclipse.xtext.example.domainmodel.ui; singleton
+ :=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext.example.domainmodel,org.eclipse.xtext.
+ example.domainmodel.ide,org.eclipse.xtext.ui,org.eclipse.xtext.ui.share
+ d,org.eclipse.xtext.ui.codetemplates.ui,org.eclipse.ui.editors;bundle-v
+ ersion="3.14.300",org.eclipse.ui.ide;bundle-version="3.18.500",org.ecli
+ pse.ui,org.eclipse.compare,org.eclipse.xtext.builder
+Import-Package: org.apache.log4j
+Export-Package: org.eclipse.xtext.example.ui.quickfix,org.eclipse.xtext.
+ example.ui.contentassist,org.eclipse.xtext.example.ui.handlers,org.ecli
+ pse.xtext.example.domainmodel.ui.internal
+Bundle-Activator: org.eclipse.xtext.example.domainmodel.ui.internal.Doma
+ inmodelActivator
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

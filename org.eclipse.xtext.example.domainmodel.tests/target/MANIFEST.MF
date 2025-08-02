@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.xtext.example.domainmodel.tests
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.xtext.example.domainmodel.tests
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.202508020740
+Bundle-SymbolicName: org.eclipse.xtext.example.domainmodel.tests; single
+ ton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext.example.domainmodel,org.eclipse.xtext.
+ testing,org.eclipse.xtext.xbase.testing,org.eclipse.xtext.xbase.lib;bun
+ dle-version="2.39.0"
+Import-Package: org.junit.jupiter.api;version="[5.1.0,6.0.0)",org.junit.
+ jupiter.api.extension;version="[5.1.0,6.0.0)"
+Export-Package: org.eclipse.xtext.example.tests;x-internal=true
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+
