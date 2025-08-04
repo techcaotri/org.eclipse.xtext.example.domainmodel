@@ -3,7 +3,7 @@ Automatic-Module-Name: org.eclipse.xtext.example.domainmodel.tests
 Bundle-ManifestVersion: 2
 Bundle-Name: org.eclipse.xtext.example.domainmodel.tests
 Bundle-Vendor: My Company
-Bundle-Version: 1.0.0.202508020740
+Bundle-Version: 1.0.0.202508040310
 Bundle-SymbolicName: org.eclipse.xtext.example.domainmodel.tests; single
  ton:=true
 Bundle-ActivationPolicy: lazy
